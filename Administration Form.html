@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Administration Form</title>
+    <style>
+      h1 {
+        text-align: center;
+        color: green;
+      }
+      fieldset {
+        width: 500px;
+        background-image: url("https://rapidapi.com/blog/wp-content/uploads/2018/06/logo-2582748_640.png");
+        background-repeat:no-repeat ;
+        background-position: center;
+        box-shadow: 3px 3px 3px black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HTML College Student Registration Form</h1>
+
+    <center>
+      <fieldset>
+        <legend style="font-weight: bolder">Admission Form</legend>
+
+        <form>
+          <table>
+            <tr>
+              <td><label>Name</label></td>
+              <td><input type="text" /></td>
+            </tr>
+
+            <tr>
+              <td><label>Surname</label></td>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <td><label>Email</label></td>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <td><label>Password</label></td>
+              <td><input type="password" /></td>
+            </tr>
+
+            <tr>
+              <td><label>Gender</label></td>
+              <td>
+                <input type="radio" name="gender" />Male
+                <!--radio value is used for getting single option-->
+                <input type="radio" name="gender" />Female
+              </td>
+            </tr>
+            <tr>
+              <td><label>Date Of Birth</label></td>
+              <td><input type="date" /></td>
+            </tr>
+            <tr>
+              <td><label>Select Languages</label></td>
+              <td>
+                <input type="checkbox" />English
+                <input type="checkbox" />Spanish
+                <!--Checkbox is used for getting multiple options-->
+                <input type="checkbox" />French
+              </td>
+            </tr>
+
+            <tr>
+              <td><label>Select Country</label></td>
+              <td>
+                <select>
+                  <option disabled selected>------------------</option>
+                  <option>USA</option>
+                  <option>Canada</option>
+                  <option>Germany</option>
+                  <option>Bosnia</option>
+                  <option>France</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td><label>Upload Your Photo</label></td>
+              <td><input type="file" /></td>
+            </tr>
+
+            <tr>
+              <td><label>Phone Number</label></td>
+              <td><input type="number" /></td>
+            </tr>
+
+            <tr>
+              <td><label>Address</label></td>
+              <td>
+                <textarea cols="30" rows="10" style="resize: none"></textarea>
+              </td>
+            </tr>
+
+            <tr>
+              <td><input type="submit" value="Save" /></td>
+            </tr>
+          </table>
+        </form>
+      </fieldset>
+    </center>
+  </body>
+</html>
